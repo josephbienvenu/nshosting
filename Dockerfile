@@ -10,4 +10,4 @@ RUN apt-get update && \
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
-CMD ["/start.sh"]
+CMD ["/Update start.sh"]
